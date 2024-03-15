@@ -7,7 +7,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Hello, world!');
 });
-app.post('/', (req, res) => {
+app.post('/test', (req, res) => {
     res.send('Hello, world!');
     }
 );
