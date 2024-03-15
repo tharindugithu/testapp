@@ -7,7 +7,10 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Hello, world!');
 });
-
+app.post('/', (req, res) => {
+    res.send('Hello, world!');
+    }
+);
 // Define a port for the server to listen on
 const PORT = process.env.PORT || 3000;
 
